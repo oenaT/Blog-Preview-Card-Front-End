@@ -1,0 +1,114 @@
+*{
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; 
+    font-family: "Figtree", serif; 
+    font-optical-sizing: auto;
+    font-weight: 800, 500;
+    font-style: normal;
+      }
+
+      body{background-color: hsl(47, 88%, 63%);}
+
+      .learning-text{  background-color: yellow;
+        padding: 4px 12px;
+        font-size: 18px;
+        font-weight: 800;
+
+        /*
+        font; */
+
+        border-radius: 4px;
+        width: 90px;
+        margin-top: .7rem;  
+    }
+
+    .learn{
+      font-weight: 800;
+    }
+
+    a {
+      color: #000;
+      text-decoration: none;}
+
+    .card-text{ 
+      color: gray;
+      line-height: 1.6;
+      font-size: 16px;
+      font-weight: 300;
+      margin-bottom: 1.5rem;}
+
+    .published-text{
+      margin-top:.8rem;
+      margin-bottom: 1.2rem;
+      font-weight: 500;
+      font-size: 15px; }
+
+    .card-image
+    { display: flex;
+      align-items: center;
+      justify-content: center;}
+
+    .card-image img
+    { border-radius: 10px;}
+
+      #card-container
+      {background-color: white;
+        width: 385px;
+        height: 565px;
+        padding: 1.2rem; 
+        margin: 3rem auto;
+        border-radius: 30px;
+        border: 2px solid black;
+        box-shadow: 7px 17px 0px 0px;}
+
+      .page-note:{
+        font-size: 24px;
+        font-weight: 800;
+        margin-top: .7rem;
+        margin-bottom: 1rem;}
+
+      .page-note:hover{
+        color: yellow;
+      }
+
+      .Greg-picture{
+        display: flex;
+        align-items: center;
+        font-size: 15px;
+        font-weight: 800;
+      }
+
+      .Greg-name{
+        margin-left: 1rem;}
+
+
+      /*
+
+media queries
+
+      
+
+      @media screen and (max-width:500px) {
+        #card-container{
+          width:90%; 
+          margin: 2rem auto;
+        }
+        .card-image img{
+          width:100%
+        }
+        }
+
+        */
+
+        .author-name{
+          display:flex;
+          align-items: center;
+        }
+
+        .p oya-name{
+          margin-left: 12px;
+        }
+
+        .oya-name :hover{color:white 
+        }
